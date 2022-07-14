@@ -1,0 +1,23 @@
+1. Создаём публичный репозиторий(в аке гита справа-сверху кнопка "+", New repository).
+2. Устанавливаем гит https://github.com/git-for-windows/git/releases/download/v2.37.1.windows.1/Git-2.37.1-64-bit.exe
+3. Открываем Git Bash из винды
+4. Клонируем созданный репозиторий git clone https://repo,,,
+5. Клонируем репозиторий mtje-markettrader: git clone https://github.com/emailbsuv/mtje-markettrader.git
+6. cd mtje-markettrader
+6.1 Удаляем:
+
+файл *.mq4 из папки MQL4/Experts/
+папку DLL из папки MQL4/Libraries/
+папку sources из папки MQL4/Files/
+
+6.2. Редактируем файлы Readme.txt, Versions.txt в папке MQL4/Files/
+
+7. Копируем из папки mtje-markettrader в папку созданного репозитория все файлы и папки
+8. Переходим в папку созданного репозитория
+9. git add .
+10. git commit -m "v0.1"
+11. git push
+12. На сайте репозитория переходим в раздел Releases и нажимаем Draft new release
+13. Заполняем Choose a tag: v0.1, Release title: v0.1, Describe this release: Читайте Readme.txt, Versions.txt и следуйте инструкциям
+14. Нажимем Publish release
+15. Делимся ссылкой с друзьями на релизы: https://github.com/emailbsuv/mtje-markettrader/releases
